@@ -13,7 +13,7 @@ public class SistemaAlumnos {
         alumnos.add(alumno);
     }
 
-    public void asignarCalificaciones(String nombre, double[] calificaciones){
+    public void asignarCalificaciones(String nombre, double[] calificaciones) {
          alumnos.forEach(el -> {
             if (el.nombre == nombre) {
                 int dimensionAnteriorCalificaciones = el.calificaciones.length;

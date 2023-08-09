@@ -6,7 +6,7 @@ public class Alumno {
     public int edad;
     public double[] calificaciones;
 
-    public Alumno(String nombre,int edad,double[] calificaciones){
+    public Alumno(String nombre,int edad,double[] calificaciones) {
         this.nombre = nombre;
         this.edad = edad;
         this.calificaciones = calificaciones;
